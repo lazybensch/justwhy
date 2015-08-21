@@ -1,0 +1,27 @@
+{
+  "name": "justwhy",
+  "version": "0.0.0",
+  "description": "...",
+  "main": "index.js",
+  "scripts": {
+    "compile": "babel -d lib src",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lazybensch/justwhy.git"
+  },
+  "author": "Benjamin Schoenburg <lazybensch@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lazybensch/justwhy/issues"
+  },
+  "homepage": "https://github.com/lazybensch/justwhy#readme",
+  "devDependencies": {
+    "babel": "^4.6.0",
+    "blessed": "^0.1.80",
+    "lodash": "^3.10.1",
+    "read": "^1.0.6",
+    "request": "^2.61.0"
+  }
+}
